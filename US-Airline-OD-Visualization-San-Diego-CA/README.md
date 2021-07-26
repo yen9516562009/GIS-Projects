@@ -3,7 +3,7 @@ This project explores the utility of [kepler.gl](https://kepler.gl/demo), a powe
 An interactive Arc layer visuzlizes the US OD pairs with passenger miles in San Diego, acquired from [US Airline Route Segments 2015](https://data.world/garyhoov/us-airline-route-segments-2015).
 [Arc layers](https://docs.kepler.gl/docs/user-guides/c-types-of-layers/b-arc) draw an arc between two points. The tallest arc represents the greatest distance. The thicker arc stands for higher passenger miles.
 
-![alt text](https://github.com/yen9516562009/GIS-Projects/US-Airline-OD-Visualization-San-Diego-CA/san_diego_viz_screenshot.png?raw=true)
+![alt text](viz/san_diego_viz_screenshot.png)
 
 ## Description of Contents
 * `data`: US Airline Route Segments 2015 dataset
