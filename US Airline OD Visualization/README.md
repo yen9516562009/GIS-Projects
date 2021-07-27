@@ -8,9 +8,9 @@ An interactive [Arc layer](https://docs.kepler.gl/docs/user-guides/c-types-of-la
 * `data`:
   * **City Pairs all airlines ranked by volume.xlsx**: US Airline Route Segments 2015 dataset
 * `src`:
+  * **data_processing.py**: a script to create San Diego subset with geocoded OD lat\lon.
   * `utilities`:
     * **geocoding.py**: a script to geocode address using GOOGLE API
-  * **data_processing.py**: a script to create San Diego subset with geocoded OD lat\lon.
 * `output`:
   * **2015 San Diego Flight OD.csv**: an output csv that is ready for kepler.gl visualization.
 * `viz`:
