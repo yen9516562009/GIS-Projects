@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-US COVID-19 Analysis
+US COVID-19 Time-Series Heat Map
 - As of 07/22/2021
 
 @author: Jeff Yen
