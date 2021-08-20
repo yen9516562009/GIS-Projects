@@ -17,6 +17,18 @@ An interactive [Arc layer](https://docs.kepler.gl/docs/user-guides/c-types-of-la
   * **2015 San Diego Flight OD Visualization.html**: an Arc layer visualization in html format.
   * **san_diego_viz_screenshot.png**: a project sreenshot.
 
-## Project Screenshot
+## Project Questions
+1.
+how source products used?
+what are properties of the final product?
+devise an output file name for the aggregated output product.
 
-![prj_scrrenshot](viz/san_diego_viz_screenshot.png)
+2.
+write README file
+
+3.
+Make a list of notes and questions to be given to the data analyst to improve product
+
+
+## Workflow
+study SDG and MOD11A1 datasets
