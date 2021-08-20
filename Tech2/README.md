@@ -53,5 +53,6 @@ The following lists of notes and questions are given to the data analyst to impr
   * Reproject and downsample the MODIS product.
   * Crop the resulting MODIS data to water extent (i.e., SDG extent).
   * Save the cropped MODIS data and the associated year to the result dictionary (i.e., years as keys and the cropped MODIS data as values).
-* `Finally, do simple average by each cropped MODIS data in the result dictionary and export to a single GeoTiff with filename: may_avg_SWT.tiff`
-  * Reproject and downsample the MODIS product.
+* `Finally, do simple average by each cropped MODIS data in the result dictionary and export to a single GeoTiff with filename: avg_may_SWT.tiff`
+  * SWT stands for surface water temperature
+  * avg_[month]_SWT: [month] was derived from Julian Days. May need an extra Python coding to extract month from given Julian Days.
