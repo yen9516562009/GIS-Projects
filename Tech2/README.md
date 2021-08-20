@@ -25,10 +25,36 @@ devise an output file name for the aggregated output product.
 
 2.
 write README file
+## SDG
+SDG stands for Sustainable Development Goal
+Access:
+[SDG6.6.1]https://www.sdg661.app/downloads
+SHP & GeoTIFF available
+The following provides global scale tabular comma separated value data for each aggregation type.
+            National boundaries (GAUL 0). 1984 - 2019
+            Administrative level 1 (GAUL 1). 1984 - 2019
+            Administrative level 2 (GAUL 2). 1984 - 2019
+            HydroBASIN, Level 6. 1984 - 2019
+
+Geotiffs are available for each country based on GAUL 0 boundaries. Each country is a collection of 4 different types of GeoTiffs with data from 2000-2018. Larger countries are split into a series of tiles. 
+
+
+[Global SDG database](https://www.google.com/url?q=https%3A%2F%2Funstats.un.org%2Fsdgs%2Findicators%2Fdatabase%2F&sa=D&sntz=1&usg=AFQjCNE40ig-41zdKtXeezTQnnq81iQa2A)
+
+## MOD11A1
+
+
+## Data Processing
+"""
+These steps were used to generate temperature over water extent:
+"""
+1. Open SDG and MODIS data via rasterio
+2. 
+3. resolution of SDG data?
 
 3.
 Make a list of notes and questions to be given to the data analyst to improve product
 
 
 ## Workflow
-study SDG and MOD11A1 datasets
+study SDG (Surface Water Extent) and MOD11A1 (Land Surface Temperature)
