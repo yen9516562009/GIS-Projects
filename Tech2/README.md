@@ -60,7 +60,8 @@ SDG product
 
 3.
 Make a list of notes and questions to be given to the data analyst to improve product
-*'How to determine the downsample spatial resolution for SDG product?'
+
+* `How to determine the downsample spatial resolution for SDG product?`
 
 
 ## Workflow
