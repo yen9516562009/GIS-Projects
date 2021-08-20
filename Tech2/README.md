@@ -7,7 +7,7 @@ SDG stands for Sustainable Development Goal.
 
 * Access: [SDG6.6.1 - Downloads](https://www.sdg661.app/downloads)
 
-* Format: Shapefiles & GeoTiff available
+* Format: Shapefiles & GeoTiff
 
 ### MOD11A1
 The MOD11A1 Version 6 product provides daily per-pixel Land Surface Temperature and Emissivity (LST&E) with 1 kilometer (km) spatial resolution in a 1,200 by 1,200 km grid.
