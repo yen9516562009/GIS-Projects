@@ -39,7 +39,7 @@ The following lists of notes and questions are given to the data analyst to impr
 
 ### Questions
 * `How to determine the downsample spatial resolution for SDG product?`
-* `The result of this project is the monthly average surface water temperature over time. Need to verify the default layer that loaded by rasterio is the band 1: Daytime Land Surface Temperature (LST_Day_1km). If it is, the unit of surface water temperature may need to convert to Celcius or Fahrenheit for interpretation purpose`
+* `The result of this project is the monthly average surface water temperature over time. Need to verify the default layer that loaded by rasterio is the band 1: Daytime Land Surface Temperature (LST_Day_1km). If it is, the unit of surface water temperature may need to convert to Celcius or Fahrenheit for better interpretation purpose.`
 
 ### Notes
 * `Julian days 121 - 151 in leap years covers the end of April and most of May. However in regular years, it ocvers the entire May. Check out Julian Days Calendar here:` [Julian Days Calendar](https://ltdr.modaps.eosdis.nasa.gov/browse/calendar.html)
