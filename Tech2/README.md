@@ -61,13 +61,22 @@ as one file.
 [Julian Day Calendar] (https://ltdr.modaps.eosdis.nasa.gov/browse/calendar.html)
 
 3.
-Make a list of notes and questions to be given to the data analyst to improve product
-questions
+
+The following lists of notes and questions are given to the data analyst to improve product
+## Questions
 * `How to determine the downsample spatial resolution for SDG product?`
 
-notes
+## Notes
 * `Julian days 121 - 151 in leap years covers the end of April and most of May. However in regular years, it ocvers the entire May.`
+* `In Python sample code, analysts may initialize a result list and use a loop function to iterate the following procedures:`
+   * Reproject and downsample the MODIS product.
+   * Crop the resulting MODIS data to water extent (i.e., SDG extent).
+   * Save the cropped MODIS data to the result list.
+`In Python sample code, analysts may initialize a result list and use a loop function to iterate the following procedures:`
 
 
 ## Workflow
 study SDG (Surface Water Extent) and MOD11A1 (Land Surface Temperature)
+understand Python sample code (any improvement?)
+
+
