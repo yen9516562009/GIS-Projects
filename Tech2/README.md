@@ -18,6 +18,11 @@ SDG stands for Sustainable Development Goal.
 ### MOD11A1
 The MOD11A1 Version 6 product provides daily per-pixel Land Surface Temperature and Emissivity (LST&E) with 1 kilometer (km) spatial resolution in a 1,200 by 1,200 km grid.
 
+* Data Specifications:
+  * Number of Science Dataset (SDS) Layers: 12
+  * Columns/Rows: 1200 x 1200
+  * Pixel Sizz: 1000 m 
+
 * Access: [MOD11A1v006 Version 6 product](https://lpdaac.usgs.gov/products/mod11a1v006/)
 
 * Format: hdf
@@ -34,26 +39,19 @@ SDG product.
 6. Repeat steps 3-5 for files for Julian days 121 to 151, then results averaged and written
 as one file.
 
-**Julian Days
-[Julian Day Calendar] (https://ltdr.modaps.eosdis.nasa.gov/browse/calendar.html)
 
-3.
-
+## Questions & Notes
 The following lists of notes and questions are given to the data analyst to improve product
-## Questions
+
+### Questions
 * `How to determine the downsample spatial resolution for SDG product?`
+* `The result of this project is the monthly average surface water temperature over time. Need to verify the default layer that loaded by rasterio is the band 1: Daytime Land Surface Temperature (LST_Day_1km). If it is, the unit of surface water temperature may need to convert to Celcius or Fahrenheit for interpretation purpose`
 
-## Notes
-* `Julian days 121 - 151 in leap years covers the end of April and most of May. However in regular years, it ocvers the entire May.`
-* `In Python sample code, analysts may initialize a result list and use a loop function to iterate the following procedures:`
-   * Reproject and downsample the MODIS product.
-   * Crop the resulting MODIS data to water extent (i.e., SDG extent).
-   * Save the cropped MODIS data to the result list.
-* `Finally, do simple average by each cropped MODIS data in the result list and export to GeoTIFF`
-
-
-## Workflow
-study SDG (Surface Water Extent) and MOD11A1 (Land Surface Temperature)
-understand Python sample code (any improvement?)
-
-
+### Notes
+* `Julian days 121 - 151 in leap years covers the end of April and most of May. However in regular years, it ocvers the entire May. Check out Julian Days Calendar here:` [Julian Days Calendar](https://ltdr.modaps.eosdis.nasa.gov/browse/calendar.html)
+* `In Python sample code, analysts may initialize a result dictionary and use a loop function to iterate the following procedures:`
+  * Reproject and downsample the MODIS product.
+  * Crop the resulting MODIS data to water extent (i.e., SDG extent).
+  * Save the cropped MODIS data and the associated year to the result dictionary (i.e., years as keys and the cropped MODIS data as values).
+* `Finally, do simple average by each cropped MODIS data in the result dictionary and export to a single GeoTiff with filename: may_avg_SWT.tiff`
+  * Reproject and downsample the MODIS product.
