@@ -1,11 +1,5 @@
 # Generate a Surface Water Temperature Product with a Monthly Temporal Resolution
-This is the project for the Element 84 Tech Screen.
-
-## Project Questions
-1.
-how source products used?
-what are properties of the final product?
-devise an output file name for the aggregated output product.
+This is the project for the Element 84 Tech Screen. The goal is to understand the source products used and properties of the final product (monthly average surface water temperature).
 
 ## Data Acquisition
 ### SDG
