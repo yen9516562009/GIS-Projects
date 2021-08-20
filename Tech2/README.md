@@ -48,20 +48,25 @@ Geotiffs are available for each country based on GAUL 0 boundaries. Each country
 """
 These steps were used to generate temperature over water extent:
 """
-1. Open SDG and MODIS data via rasterio
+1. Open SDG data via rasterio
 2. Downsample and re-project SDG data to WGS84 (EPSG 4326)
-3. Re-project the MODIS data to match the projection and resolution of the downsampled
+3. Open MODIS data via rasterio
+4. Re-project the MODIS data to match the projection and resolution of the downsampled
 SDG product
-4. Crop the temperature data to the water extent
-5.
+5. Crop the temperature data to the water extent
+6. Repeat steps 3-5 for files for Julian days 121 to 151, then results averaged and written
+as one file.
 
 **Julian Days
 [Julian Day Calendar] (https://ltdr.modaps.eosdis.nasa.gov/browse/calendar.html)
 
 3.
 Make a list of notes and questions to be given to the data analyst to improve product
-
+questions
 * `How to determine the downsample spatial resolution for SDG product?`
+
+notes
+* `Julian days 121 - 151 in leap years covers the end of April and most of May. However in regular years, it ocvers the entire May.`
 
 
 ## Workflow
